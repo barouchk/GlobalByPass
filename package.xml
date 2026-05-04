@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>AccountHandler</members>
+        <members>AccountHelper</members>
+        <members>TriggerHandler</members>
+        <members>TriggerHandlerTest</members>
+        <members>TestObjectFactory</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>AccountTrigger</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>Global_Bypass__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Global_Bypass__c.Run_Assignment_Rules__c</members>
+        <members>Global_Bypass__c.Run_Flows__c</members>
+        <members>Global_Bypass__c.Run_Process_Builder__c</members>
+        <members>Global_Bypass__c.Run_Triggers__c</members>
+        <members>Global_Bypass__c.Run_Validation_Rules__c</members>
+        <members>Global_Bypass__c.Run_Workflow_Rules__c</members>
+        <name>CustomField</name>
+    </types>
+    <version>59.0</version>
+</Package>
